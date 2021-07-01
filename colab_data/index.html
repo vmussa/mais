@@ -1,0 +1,1005 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      <link rel="icon" href="../images/bdmais_minilogo_vertical.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.1.9">
+    
+    
+      
+        <title>Dados - Base Dos Dados Mais</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.ca7ac06f.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.f1a3b89f.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#4cae4f">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+      
+    
+    
+    
+      <link rel="stylesheet" href="../assets/_mkdocstrings.css">
+    
+      <link rel="stylesheet" href="../css/termynal.css">
+    
+      <link rel="stylesheet" href="../css/custom.css">
+    
+    
+      
+  
+
+
+
+  
+  
+
+
+
+  <script>window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga("create","UA-148402482-2","auto"),ga("set","anonymizeIp",!0),ga("send","pageview"),document.addEventListener("DOMContentLoaded",function(){document.forms.search&&document.forms.search.query.addEventListener("blur",function(){var e;this.value&&(e=document.location.pathname,ga("send","pageview",e+"?q="+this.value))}),"undefined"!=typeof location$&&location$.subscribe(function(e){ga("send","pageview",e.pathname)})})</script>
+  <script async src="https://www.google-analytics.com/analytics.js"></script>
+
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="green" data-md-color-accent="">
+  
+    
+    <script>function __prefix(e){return new URL("..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#dados-na-bd" class="md-skip">
+          Ir para o conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Base Dos Dados Mais" class="md-header__button md-logo" aria-label="Base Dos Dados Mais" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Base Dos Dados Mais
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Dados
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        
+<a href="https://github.com/basedosdados/mais/" title="Ir ao repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    basedosdados/mais
+  </div>
+</a>
+      </div>
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href=".." class="md-tabs__link">
+      Introdução
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../access_data_bq/" class="md-tabs__link">
+        Como acessar
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="./" class="md-tabs__link md-tabs__link--active">
+        Colaborar
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../analysis/" class="md-tabs__link">
+        Analisar
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../reference_api_py/" class="md-tabs__link">
+        API
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../support/" class="md-tabs__link">
+        Apoie! 💚
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../datathon_2021/" class="md-tabs__link">
+        DATATHON 👩🏻‍💻
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Base Dos Dados Mais" class="md-nav__button md-logo" aria-label="Base Dos Dados Mais" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    Base Dos Dados Mais
+  </label>
+  
+    <div class="md-nav__source">
+      
+<a href="https://github.com/basedosdados/mais/" title="Ir ao repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    basedosdados/mais
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        Introdução
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      <label class="md-nav__link" for="__nav_2">
+        Como acessar
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Como acessar" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Como acessar
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../access_data_bq/" class="md-nav__link">
+        BigQuery
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../access_data_local/" class="md-nav__link">
+        Local
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" checked>
+      
+      <label class="md-nav__link" for="__nav_3">
+        Colaborar
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Colaborar" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Colaborar
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Dados
+      </a>
+      
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../colab_checks/" class="md-nav__link">
+        Testes de Dados
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../colab_infrastructure/" class="md-nav__link">
+        Infraestrutura
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../style_data/" class="md-nav__link">
+        Manual de estilo
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      <label class="md-nav__link" for="__nav_4">
+        Analisar
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Analisar" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Analisar
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../analysis/" class="md-nav__link">
+        Início
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      <label class="md-nav__link" for="__nav_5">
+        API
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="API" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          API
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../reference_api_py/" class="md-nav__link">
+        Python
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../reference_api_r/" class="md-nav__link">
+        R
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../reference_api_cli/" class="md-nav__link">
+        CLI
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
+      
+      <label class="md-nav__link" for="__nav_6">
+        Apoie! 💚
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Apoie! 💚" data-md-level="1">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          Apoie! 💚
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../support/" class="md-nav__link">
+        Início
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" >
+      
+      <label class="md-nav__link" for="__nav_7">
+        DATATHON 👩🏻‍💻
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="DATATHON 👩🏻‍💻" data-md-level="1">
+        <label class="md-nav__title" for="__nav_7">
+          <span class="md-nav__icon md-icon"></span>
+          DATATHON 👩🏻‍💻
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../datathon_2021/" class="md-nav__link">
+        1ª edição (mar/2021)
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../odd_2021/" class="md-nav__link">
+        ODD (mar/2021)
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/basedosdados/mais/edit/master/docs/colab_data.md" title="Editar esta página" class="md-content__button md-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+                  </a>
+                
+                
+                <h1 id="dados-na-bd">Dados na BD+</h1>
+<p>Nosso objetivo na Base dos Dados Mais (BD+) é criar um repositório de dados <strong>universal</strong> e de <strong>alta qualidade</strong>:</p>
+<ul>
+<li>
+<p><strong>Universal</strong>: Isso significa, em princípio, incluir todas as bases de dados do Brasil e do mundo. Pouco ambicioso né :-).</p>
+</li>
+<li>
+<p><strong>Alta qualidade</strong>: Ter alta qualidade significa manter todos nossos dados estruturados, limpos, bem documentados, consistentes entre si e atualizados.</p>
+</li>
+</ul>
+<p>Isso já é um desafio em projetos pequenos, e é ainda mais <em>em escala</em>. Por isso, desenvolvemos e seguimos uma série de padrões e procedimentos de controle de qualidade, e criamos uma infraestrutura para facilitar a subida de dados por qualquer pessoa ou instituição (do nosso time de dados ou colaboradores externos).</p>
+<h1 id="colaborando-com-dados">Colaborando com Dados</h1>
+<p>Quer subir dados na BD+ e nos ajudar a construir esse repositório? Maravilha! Vamos seguir com os passos abaixo.</p>
+<p>Ao longo da explicação, vamos sempre seguir um exemplo já pronto com dados da <a href="https://basedosdados.org/dataset/br-me-rais">RAIS</a>.</p>
+<div class="admonition tip">
+<p class="admonition-title">Sugerimos que entre em nosso <a href="https://discord.gg/2GAuw7d8zd">canal no Discord</a> para tirar dúvidas e interagir com outros(as) colaboradores(as)! :)</p>
+</div>
+<h2 id="qual-o-procedimento">Qual o procedimento?</h2>
+<ol>
+<li><a href="#1-informe-seu-interesse-para-a-gente">Informe seu interesse para a gente</a>.</li>
+<li><a href="#2-baixar-nossa-pasta-template-para-dados">Baixar nossa pasta <em>template</em> para dados</a>.</li>
+<li><a href="#3-preencher-as-tabelas-de-arquitetura">Preencher as tabelas de arquitetura</a>.</li>
+<li><a href="#4-escrever-codigo-de-captura-e-limpeza-de-dados">Escrever código de captura e limpeza de dados</a>.</li>
+<li><a href="#5-organizar-arquivos-auxiliares-se-necessario">Organizar arquivos auxiliares, se necessário</a>.</li>
+<li><a href="#6-criar-tabela-dicionario-se-necessario">Criar tabela dicionário, se necessário</a>.</li>
+<li><a href="#7-subir-arquiteturas-dados-e-arquivos-auxiliares-no-google-cloud">Subir arquiteturas, dados e arquivos auxiliares no Google Cloud</a>.</li>
+<li><a href="#8-enviar-tudo-para-revisao">Enviar tudo para revisão</a>.</li>
+</ol>
+<h2 id="1-informe-seu-interesse-para-a-gente">1. Informe seu interesse para a gente</h2>
+<p>Mantemos metadados de bases que ainda não estão na BD+ em nossa <a href="https://docs.google.com/spreadsheets/d/1jnmmG4V6Ugh_-lhVSMIVu_EaL05y1dX9Y0YW8G8e_Wo/edit?usp=sharing">tabela de prioridade de bases</a>. Para subir uma base de seu interesse na BD+, adicione os seus metadados de acordo com as colunas da tabela.</p>
+<ul>
+<li><strong>Inclua uma linha por tabela do conjunto de dados.</strong></li>
+<li><strong>Preencha os campos cuidadosamente</strong>. Além dos dados gerais sobre a tabela, adicione as classificações de <code>Facilidade</code> e <code>Importância</code> e o campo de <code>Prioridade</code> será gerado automaticamente.</li>
+<li>Por fim, <strong>crie um issue no Github com o <a href="https://github.com/basedosdados/mais/issues/new?assignees=rdahis&amp;labels=data&amp;template=br_novos_dados.md&amp;title=%5Bdados%5D+%3Cadd+nome%2C+ex%3A+Censo+Escolar+INEP%3E">template "Novos dados"</a></strong></li>
+</ul>
+<div class="admonition info">
+<p class="admonition-title">Caso sua base já esteja listada, basta marcar seu usuário do Github na coluna <code>Pessoa responsável</code>.</p>
+</div>
+<div class="admonition info">
+<p class="admonition-title">Fique à vontade para conversar com a gente e tirar dúvidas direto no nosso servidor no <a href="https://discord.gg/2GAuw7d8zd">Discord</a>.</p>
+</div>
+<h2 id="2-baixar-nossa-pasta-template-para-dados">2. Baixar nossa pasta <em>template</em> para dados</h2>
+<p>Baixe <a href="https://drive.google.com/drive/folders/1xXXon0vdjSKr8RCNcymRdOKgq64iqfS5?usp=sharing">aqui</a> a nossa pasta <em>template</em> para colaboração de dados, e renomeie ela para <code>&lt;dataset_id&gt;</code>. Ela facilita todos os passos daqui pra frente.</p>
+<p>Sua estrutura é bem simples:</p>
+<ul>
+<li><code>/&lt;dataset_id&gt;</code></li>
+<li><code>/code</code><ul>
+<li>Contém todos os <em>scripts</em> (códigos) necessários à captura e limpeza dos dados (discutido no passo <a href="#4-escrever-codigo-de-captura-e-limpeza-de-dados">4</a>).</li>
+<li>Nessa configuração, toda a estrutura de código será com atalhos <em>relativos</em> à pasta raíz, usando as demais pastas criadas.</li>
+</ul>
+</li>
+<li><code>/input</code><ul>
+<li>Contém todos os arquivos com dados originais, exatamente como baixados da fonte primária.</li>
+<li><em>Esses arquivos não devem jamais ser modificados.</em></li>
+</ul>
+</li>
+<li><code>/output</code><ul>
+<li>Contém arquivos finais, já no formato pronto para subir na BD+.</li>
+</ul>
+</li>
+<li><code>/tmp</code><ul>
+<li>Contém quaisquer arquivos temporários criados pelo código em <code>/code</code> no processo de limpeza e tratamento.</li>
+</ul>
+</li>
+<li><code>/extra</code><ul>
+<li><code>/architecture</code><ul>
+<li>Contém as tabelas de arquitetura (discutido no passo <a href="#3-preencher-as-tabelas-de-arquitetura">3</a>).</li>
+</ul>
+</li>
+<li><code>/auxiliary_files</code><ul>
+<li>Contém quaisquer arquivos auxiliares aos dados (discutido no passo <a href="#5-se-necessario-organizar-arquivos-auxiliares">5</a>).</li>
+</ul>
+</li>
+<li><code>dicionario.csv</code><ul>
+<li>Tabela dicionário mapeando chaves a valores para todas as tabelas da base (discutido no passo <a href="#6-se-necessario-criar-tabela-dicionario">6</a>).</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="3-preencher-as-tabelas-de-arquitetura">3. Preencher as tabelas de arquitetura</h2>
+<p>Definir e preencher as tabelas de arquitetura são partes fundamentais da colaboração de dados. É aqui que (1) definimos como estarão estruturadas as tabelas em produção, (2) discutimos nomeação e ordenamento de colunas, (3) preenchemos os metadados de colunas, e (4) compatibilizamos dados entre anos quando há inconsistências.</p>
+<p>Cada base tem 1 ou mais tabelas de dados. Cada tabela de dados tem sua tabela de arquitetura.</p>
+<p>Tabelas de arquitetura podem ser preenchidas no Google Drive ou localmente (Excel, editor de texto).</p>
+<p>Perguntas que uma arquitetura deve responder:</p>
+<ul>
+<li><em>Quais serão as tabelas finais na base?</em> Essas não precisam ser exatamente o que veio nos dados brutos.</li>
+<li><em>Qual é nível da observação de cada tabela?</em> O "nível da observação" é
+  a menor unidade a que se refere cada linha na tabela (ex: municipio-ano, candidato,
+  estabelecimento-cnae).</li>
+<li><em>Será gerada alguma tabela derivada com agregações em cima dos dados originais?</em></li>
+</ul>
+<p>No exemplo da RAIS, <a href="https://drive.google.com/drive/folders/1OtsucP_KhiUEJI6F6k_cagvXfwZCFZF2?usp=sharing">aqui</a> estão as tabelas de arquitetura já preenchidas. Sempre seguindo nosso <a href="/mais/style_data">manual de estilo</a>, nós renomeamos, definimos o tipo, preenchemos descrições, indicamos se há dicionário ou diretório, preenchemos campos (e.g. cobertura temporal e unidade de medida) e fizemos a compatibilização entre anos para todas as variáveis (colunas).</p>
+<p>A compatibilização entre anos, caso necessária, é feita criando novas colunas à direita chamadas <code>nome_original_YYYY</code>, em ordem temporal descendente (2021, 2020, 2019, ...). Nessas colunas incluímos <em>todas</em> as variáveis de cada ano. Para as que forem eventualmente excluídas da versão em produção, deixamos seu nome como <code>(deletado)</code> e não preenchemos nenhum metadado.</p>
+<div class="admonition tip">
+<p class="admonition-title">Quando terminar de preencher as tabelas de arquitetura, entre em contato com a equipe da Base dos Dados ou nossa comunidade para validar tudo. É importante ter certeza que está fazendo sentido <em>antes</em> de começar a escrever código.</p>
+</div>
+<h2 id="4-escrever-codigo-de-captura-e-limpeza-de-dados">4. Escrever código de captura e limpeza de dados</h2>
+<p>Depois de validadas as tabelas de arquitetura podemos escrever o código de captura e limpeza dos dados. Exigimos que tudo esteja escrito em <a href="https://www.python.org/">Python</a>, <a href="https://www.r-project.org/">R</a>, ou <a href="https://www.stata.com/">Stata</a>. Podem ser código padrão ou cadernos (Colab, Jupyter, Rmarkdown, etc).</p>
+<p>No exemplo da RAIS, temos todo o código escrito em Stata para consulta <a href="https://github.com/basedosdados/mais/tree/master/bases/br_me_rais/code">aqui</a>.</p>
+<h4 id="captura">Captura</h4>
+<p>Esse script baixa automaticamente todos os dados originais e os salva em <code>/input</code>. Esses dados podem estar disponíveis em portais ou links FTP, podem ser raspados de sites, entre outros.</p>
+<h4 id="limpeza">Limpeza</h4>
+<p>Esse script transforma os dados originais salvos em <code>/input</code> nos dados limpos prontos para serem subidos na BD+ salvos em <code>/output</code>, tudo baseado nas tabelas de arquitetura.</p>
+<p>Cada tabela limpa para produção pode ser salva como um arquivo <code>.csv</code> único ou, caso seja muito grande (e.g. acima de 100-200 mb), ser particionada no formato <a href="https://cloud.google.com/bigquery/docs/hive-partitioned-loads-gcs">Hive</a> em vários sub-arquivos <code>.csv</code>. Nossa recomendação é particionar tabelas por <code>ano</code>, <code>mes</code>, <code>sigla_uf</code>, ou no máximo por <code>id_municipio</code>. Para a tabela <code>microdados_vinculos</code> da RAIS nós particionamos por <code>ano</code> e <code>sigla_uf</code>, com a estrutura de pastas sendo <code>/microdados_vinculos/ano=YYYY/sigla_uf=XX</code>.</p>
+<p>Nós já criamos funções úteis para limpeza nas nossas APIs de Python e R. Por exemplo, com o pacote <code>basedosdados</code> você pode ler tabelas muito grandes, particionar tabelas automaticamente, gerar certas variáveis comuns (e.g. <code>sigla_uf</code> a partir de <code>id_uf</code>), etc.</p>
+<p>Tudo nesse passo deve seguir nosso <a href="/mais/style_data">manual de estilo</a> e as <a href="https://en.wikipedia.org/wiki/Best_coding_practices">melhores práticas de programação</a>.</p>
+<h2 id="5-se-necessario-organizar-arquivos-auxiliares">5. Se necessário, organizar arquivos auxiliares</h2>
+<p>É comum bases de dados serem distribuídas com arquivos auxiliares. Esses podem incluir notas técnicas, descrições de coleta e amostragem, etc. Para ajudar usuários da Base dos Dados terem mais contexto e entenderem melhor os dados, organize todos esses arquivos auxiliares em <code>/extra/auxiliary_files</code>.</p>
+<p>Fique à vontade para estruturar sub-pastas como quiser lá dentro. O que importa é que fique claro o que são esses arquivos.</p>
+<h2 id="6-se-necessario-criar-tabela-dicionario">6. Se necessário, criar tabela dicionário</h2>
+<p>É também comum que bases de dados grandes sejam estruturadas de forma a precisar de um dicionário. Para poupar espaço, variáveis STRING são convertidas em variáveis numéricas com cada chave mapeando um valor único. Muitas vezes, especialmente com bases antigas, há múltiplos dicionários em formatos Excel ou outros. Na Base dos Dados nós unificamos tudo em um único arquivo em formato <code>.csv</code>.</p>
+<p>Descrevemos nossas várias diretrizes para dicionários no nosso <a href="/mais/style_data">manual de estilo</a>. Por exemplo:</p>
+<ul>
+<li>Cada base inclui somente um dicionário (que cobre uma ou mais tabelas).</li>
+<li>Para cada tabela, coluna e cobertura temporal, cada chave mapeia unicamente um valor.</li>
+<li>Chaves não podem ter valores nulos.</li>
+<li>Dicionários devem cobrir todas as chaves disponíveis nas tabelas originais.</li>
+<li>Chaves não possuem zeros à esquerda. Exemplo: <code>01</code> deveria ser <code>1</code>.</li>
+<li>Valores são padronizados: sem espaços extras, inicial maiúscula e resto minúsculo, etc.</li>
+</ul>
+<p>No exemplo da RAIS nós criamos um dicionário completo <a href="https://docs.google.com/spreadsheets/d/12Wwp48ZJVux26rCotx43lzdWmVL54JinsNnLIV3jnyM/edit?usp=sharing">aqui</a>.</p>
+<h2 id="7-subir-arquiteturas-dados-e-arquivos-auxiliares-no-google-cloud">7. Subir arquiteturas, dados e arquivos auxiliares no Google Cloud</h2>
+<p>Tudo pronto! Agora só falta subir as coisas para o Google Cloud e depois enviar para revisão.</p>
+<p>Desenvolvemos um cliente <code>basedosdados</code> (disponível para linha de comando e Python por enquanto) para facilitar esse processo e indicar configurações básicas que devem ser preenchidas sobre os dados.</p>
+<h4 id="configure-seu-projeto-no-google-cloud-e-um-bucket-no-google-storage">Configure seu projeto no Google Cloud e um <em>bucket</em> no Google Storage</h4>
+<p>Os dados vão passar ao todo por 3 lugares no Google Cloud:</p>
+<ol>
+<li>Storage: local onde serão armazenados o arquivos (arquiteturas, dados, arquivos auxiliares).</li>
+<li>BigQuery: banco de dados do Google, dividido em 2 projetos/tipos de tabela:<ul>
+<li>Staging: banco para teste e tratamento final do conjunto de dados</li>
+<li>Produção: banco oficial de publicação dos dados (<code>basedosdados</code>! ou o seu mesmo caso queira reproduzir o ambiente)</li>
+</ul>
+</li>
+</ol>
+<p>Para criar um projeto no Google Cloud basta ter um email cadastrado no Google. Seguindo o passo-a-passo:</p>
+<ul>
+<li>Acesse o <a href="https://console.cloud.google.com/projectselector2/home/dashboard">link</a> e aceite o Termo de Serviços do Google Cloud.</li>
+<li>Clique em <code>Create Project/Criar Projeto</code> - escolha um nome bacana para o seu projeto, ele terá também um <code>Project ID</code> que será utilizado para configuração local.</li>
+<li>Depois de criado o projeto, vá até a funcionalidade de <a href="https://console.cloud.google.com/storage">Storage</a> e crie uma pasta, seu <em>bucket</em>, para você subir os dados.</li>
+</ul>
+<h4 id="configure-o-cli-localmente-clone-nosso-repositorio-e-abra-uma-nova-branch">Configure o CLI localmente, clone nosso repositório e abra uma nova <em>branch</em></h4>
+<p>No seu terminal:</p>
+<ul>
+<li>Instale nosso cliente: <code>pip install basedosdados</code>.</li>
+<li>Rode <code>basedosdados config init</code> e siga o passo a passo para configurar localmente com as credenciais de seu projeto no Google Cloud.</li>
+<li>Clone um <em>fork</em> do nosso <a href="https://github.com/basedosdados/mais">repositório</a> localmente.</li>
+<li>Dê um <code>cd</code> para a pasta local do repositório e abra uma nova branch com <code>git checkout -b [BRANCH_ID]</code>.</li>
+</ul>
+<p>Todas as adições e modificações serão feitas nessa <em>branch</em>.</p>
+<h4 id="suba-e-configure-uma-tabela-no-seu-bucket">Suba e configure uma tabela no seu <em>bucket</em></h4>
+<p>Aqui são dois passos: primeiro publicamos uma base e depois publicamos tabelas.</p>
+<ul>
+<li>Publique uma base.<ul>
+<li>Rode o comando <code>basedosdados dataset create [DATASET_ID] --raw_path '/[DATASET_ID]/input' --auxiliary_files_path '/[DATASET_ID]/extra/auxiliary_files'</code>.</li>
+<li>Preencha os arquivos de configuração da base:<ul>
+<li><code>README.md</code>: informações básicas da base de dados aparecendo no Github.</li>
+<li><code>dataset_config.yaml</code>: informações específicas da base de dados.</li>
+</ul>
+</li>
+<li>Rode o comando <code>basedosdados dataset update [DATASET_ID]</code> para atualizar a base com as configurações preenchidas.</li>
+</ul>
+</li>
+<li>Publique uma tabela (ou várias!) dentro da base<ul>
+<li>Rode o comando <code>basedosdados table create [DATASET_ID] [TABLE_ID] --data_path '/[DATASET_ID]/output/[TABLE_ID]' --architecture_path '/[DATASET_ID]/extra/architecture/[TABLE_ID]'</code>.</li>
+<li>Preencha os arquivos de configuração da tabela:<ul>
+<li><code>/[TABLE_ID]/table_config.yaml</code>: informações específicas da tabela.</li>
+<li><code>/[TABLE_ID]/publish.sql</code>: aqui você pode fazer tratamentos finais na tabela <code>staging</code> em SQL para publicação. Exemplo: modificar a query para dar um JOIN em outra tabela da BD+ e selecionar variáveis.</li>
+</ul>
+</li>
+<li>Rode o comando <code>basedosdados table publish [DATASET_ID] [TABLE_ID]</code> para publicar a tabela em produção.</li>
+</ul>
+</li>
+</ul>
+<p>Consulte também nossa <a href="/mais/reference_api_cli">API</a> para mais detalhes de cada método.</p>
+<p>É sempre bom abrir o console do BigQuery e rodar algumas <em>queries</em> para testar se foi tudo publicado corretamente. Estamos desenvolvendo testes automáticos para facilitar esse processo no futuro.</p>
+<h2 id="8-enviar-tudo-para-revisao">8. Enviar tudo para revisão</h2>
+<p>Ufa, é isso! Agora só resta enviar tudo para revisão no <a href="https://github.com/basedosdados/mais">repositório</a> da Base dos Dados.</p>
+<p>Crie os <em>commits</em> necessários e rode um <code>git push origin [BRANCH_ID]</code>. Depois é só abrir um <em>pull request</em> (PR) no nosso repositório.</p>
+<p>Temos passos manuais e automáticos de revisão para dados e metadados. Pessoas do time da Base dos Dados entrarão em contato com você para pedir mudanças ou tirar dúvidas. Quando tudo estiver redondo nós fazemos um <em>merge</em> e os dados são publicados na nossa plataforma.</p>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../access_data_local/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: Local" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Anterior
+              </span>
+              Local
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../colab_checks/" class="md-footer__link md-footer__link--next" aria-label="Próximo: Testes de Dados" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Próximo
+              </span>
+              Testes de Dados
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+        
+      </div>
+      
+  <div class="md-footer-social">
+    
+      
+      
+        
+        
+      
+      <a href="https://twitter.com/basedosdados" target="_blank" rel="noopener" title="twitter.com" class="md-footer-social__link">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+      </a>
+    
+  </div>
+
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs"], "translations": {"clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "search.config.lang": "pt", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Buscar", "search.result.placeholder": "Digite para iniciar a busca", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../assets/javascripts/workers/search.477d984a.min.js", "version": 2.0}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.82b56eb2.min.js"></script>
+      
+        <script src="../js/termynal.js"></script>
+      
+        <script src="../js/custom.js"></script>
+      
+    
+  </body>
+</html>
